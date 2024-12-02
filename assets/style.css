@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cabin;
+}
+
+/* Import Font */
+@font-face {
+  font-family: Cabin;
+  src: url(../assets/fonts/Cabin-Regular.ttf);
+}
+
+/* Start Styling */
+body {
+    background-color: #283441;
+}
+
+.game-container {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+
+.title {
+  width: 98%;
+  padding: 10px;
+  margin: 35px auto 5px;
+  background-color: deeppink;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.title span i {
+  font-size: 17px;
+  color: #FFE700;
+  margin-top: 2px;
+}
+
+.square {
+  width: 94px;
+  height: 94px;
+  float: left;
+  background-color: #34495e;
+  margin: 2.5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  transition: all .2s ease-in-out;
+}
+
+.square:hover {
+    background-color: #73EC8B;
+    cursor: pointer;
+}
+
+
+button {
+    font-size: 20px;
+    color: white;
+    margin: 10px auto;
+    background-color: #C62E2E;
+    border-radius: 4px;
+    padding: 8px 0;
+    width: 98%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+button i {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #df2626;
+}

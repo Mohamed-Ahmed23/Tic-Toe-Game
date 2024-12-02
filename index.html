@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>Tic and Toe Game</title>
+    <!-- Flaticon Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@latest/css/all/all.css"
+    />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Start Game -->
+    <div class="game-container" id="game">
+      <div class="title"><span><i class="fi fi-br-cross"></i> <i class="fi fi-br-circle"></i> </span>GAME</div>
+
+      <div class="square" id="item0" onclick="game(this.id)"></div>
+      <div class="square" id="item1" onclick="game(this.id)"></div>
+      <div class="square" id="item2" onclick="game(this.id)"></div>
+
+      <div class="square" id="item3" onclick="game(this.id)"></div>
+      <div class="square" id="item4" onclick="game(this.id)"></div>
+      <div class="square" id="item5" onclick="game(this.id)"></div>
+
+      <div class="square" id="item6" onclick="game(this.id)"></div>
+      <div class="square" id="item7" onclick="game(this.id)"></div>
+      <div class="square" id="item8" onclick="game(this.id)"></div>
+      <button type="button" id="restart-btn">Restart <i class="fi fi-rr-undo-alt"></i></button>
+    </div>
+    <!-- Main Js File -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>
